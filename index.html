@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Places You'll Go</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="beach">
+      <h1 class= "beach-heading">Places You'll Go</h1>
+      <nav>
+        <ul class="menu">
+              <li>Rates Form</li>
+              <li>Travel Ideas</li>
+              <li>Contact Us</li>
+          </ul>
+      </nav>
+    </header>
+
+    <p>
+        This is a site deicated to helping avid or aspiring travelers find themselves with new adventures.
+    </p>
+
+    <main>
+      <form>
+        <div>
+            <h2>Where would you most like to go? </h2>
+            <label for="destination">Enter a city name: <abbr title="required" aria-label="required"></abbr></label>
+            <input id="destination" type="text" name="destination">
+        </div>
+
+        <div>
+            <h2>How long would you like to stay?</h2>
+            <label for="soujourn">Enter a valid amount of days: <abbr title="required" aria-label="required"></abbr></label>
+            <input id="soujourn" type="number" name="soujourn">
+        </div>
+
+        <div>
+            <h2>When would you like to leave? </h2>
+            <label for="departure-date">Enter a valid date: <abbr title="required" aria-label="required"></abbr></label>
+            <input id="departure-date" type="date" name="departure-date">
+        </div>
+
+        <div>
+            <h2>Where are you traveling from? </h2>
+            <label for="departure-place">Enter a city name: <abbr title="required" aria-label="required"></abbr></label>
+            <input id="departure-place" type="text" name="departure-place">
+        </div>
+
+        <div>
+            <h2>Give us your email so we can find your best rates! </h2>
+            <label for="email">Email Address: <abbr title="required" aria-label="required"></abbr></label>
+            <input id="email" type="email" name="email">
+        </div>
+    </form>
+
+    <section class="button">
+        <p>
+          <button type="submit">Get my travel rates!</button>
+        </p>
+    </section>
+
+    </main>
+
+    <footer>
+        <form>
+            <div>
+                <h3 id="contact">Contact us! </h3>
+                <label for="name">Name: <abbr title="required" aria-label="required"></abbr></label>
+                <input id="name" type="text" name="name">
+                <label for="email">Email: <abbr title="required" aria-label="required"></abbr></label>
+                <input id="email" type="email" name="email">
+                <label for="message">Message: <abbr title="required" aria-label="required"></abbr></label>
+                <input id="message" type="text" name="message">
+            </div>
+        </form>
+        <section class="button">
+            <p>
+              <button type="submit">Contact</button>
+            </p>
+        </section>
+    
+    </footer>
+  </body>
+
+</html>
